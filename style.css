@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+h1,
+h3,
+p {
+  display: inline;
+}
+
+label,
+input {
+  display: inline-block;
+  font-weight: bold;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: url("https://i1.faceprep.in/ProGrad/minion-background.png");
+  background-size: 100% 100%;
+}
+
+section {
+  width: 500px;
+  background-color: white;
+  margin: auto;
+}
+
+div {
+  text-align: center;
+}
+
+input,
+textarea {
+  margin: 10px 0;
+}
+
+form {
+  text-align: left;
+}
+label {
+  font-weight: bold;
+}
+
+p,
+input[type="text"],
+input[type="number"],
+textarea,
+form {
+  width: 350px;
+  padding: 8px;
+}
+
+p,
+form {
+  margin: auto;
+}
+
+input[type="submit"] {
+  background-color: #1e90ff;
+  color: white;
+  margin: auto;
+  display: block;
+  padding: 10px;
+  width: 150px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+input[type="checkbox"]{
+  margin-left: 5px ;
+  margin-right: 5px;
+  
+}
